@@ -61,3 +61,13 @@ let data ={
     }
 }
 data.name();
+// arrow function 
+let sum = (a,b) => {
+     return a+b;
+}
+console.log(sum(2,4));
+
+const cube = n => {
+       return n*n*n;
+}
+console.log(cube(4));
